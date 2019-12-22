@@ -10,18 +10,52 @@ body {
   height: 40px;
 }
 
-div#main {
-  padding-top: 80px;
+
+#aboveMain {
+  height: 70px;
 }
 
-div#about {
-  padding-top: 80px;
+#main {
+  position: relative;
 }
 
-div#history {
-  padding-top: 80px;
+#aboveContact {
+  height: 70px;
 }
 
-div#jobs {
-  padding-top: 80px;
+#contact {
+  position: relative;
+}
+
+
+  #aboveAbout {
+    height: 70px;
+  }
+
+#about {
+  position: relative;
+}
+#aboveHistory {
+  height: 70px;
+}
+
+#history {
+  position: relative;
+}
+
+#aboveJobSeekers {
+  height: 70px;
+}
+
+#jobSeekers {
+  position: relative;
+}
+
+#aboveAvailableJobs {
+  height: 70px;
+}
+
+
+#availableJobs {
+  position: relative;
 }
