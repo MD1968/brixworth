@@ -19,11 +19,11 @@ body {
   position: relative;
 }
 
-#aboveContact {
+#aboveContactForm {
   height: 70px;
 }
 
-#contact {
+#contactForm {
   position: relative;
 }
 
@@ -35,6 +35,7 @@ body {
 #about {
   position: relative;
 }
+
 #aboveHistory {
   height: 70px;
 }
@@ -57,5 +58,14 @@ body {
 
 
 #availableJobs {
+  position: relative;
+}
+
+
+  #aboveDirectory {
+    height: 70px;
+  }
+
+#directory {
   position: relative;
 }
