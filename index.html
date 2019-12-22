@@ -80,6 +80,8 @@
         <div class="d-flex flex-row">
           <div class="d-flex justify-content-center ">
           <div id="main">
+            <h2 class="contact-heading uppercase text-center"> Welcome to Brixworth</h2> <hr>
+
               <img alt="Village Church" src="assets/images/villageChurch.jpg" style="width: 95%; height:95%;">
 </div>
 </div>
@@ -93,6 +95,8 @@
 
     <div class="container">
       <div id="about">
+        <h2 class="contact-heading uppercase text-center" > About</h2><hr>
+
           <p>I have designed this site to be a tool for residents and visitors for the village of Brixworth.<br><br>Within the site you will find the following: <br>
       <ul>
         <li>Village History</li>
@@ -112,6 +116,7 @@
 
       <div class="container">
         <div id="history">
+          <h2 class="contact-heading uppercase text-center" > History</h2> <hr>
       <p>The parish of Brixworth covers an area of 3,148 acres, and rises to a little over 400 ft. above the ordnance datum. The soil is mainly Northamptonshire sandstone, with ironstone and a little clay; the subsoil is ironstone. Iron ore
         is quarried extensively in the parish and there is a brick and tile works situated on the southern border. <p>
 
@@ -140,7 +145,26 @@
 
 <div class="container">
   <div id="jobSeekers">
-    <p>Local residents looking for work. <p>
+    <h2 class="contact-heading uppercase text-center"> Local residents looking for work. </h2> <hr>
+
+          <a class="btn btn-success" data-toggle="collapse" href="#jobLook1" role="button" aria-expanded="false" style=" margin-left: 20px" aria-controls="job1">Front-End Developer</a>
+          <hr><a class="btn btn-success" data-toggle="collapse" href="#jobLook2" role="button" aria-expanded="false" style=" margin-left: 20px;" aria-controls="job2">Office Assistant</a><hr>
+
+          <div class="collapse multi-collapse" id="jobLook1">
+            <div class="card card-body" style="width: 100%">
+              <p>Front-End Developer<br><br>Mark is looking for new challanges. <br>Skilled in HTML, CSS, Bootstrap and Javascript.<br><br>Please call Mark on 07455 900078<p>
+            </div>
+          </div>
+
+          <div class="collapse multi-collapse" id="jobLook2">
+            <div class="card card-body" style="width: 100%">
+              <p>Office Assistant<br><br>Janine is looking for new challanges. <br>Experienced with Microsoft Word and Excel.<br><br>Please email Janine <a href="mailto:rogue-123@hotmail.co.uk" class="btn btn-info" target="_top">email</a>
+                <p>
+            </div>
+
+          </div>
+    </div>
+  </div>
     </div>
   </div>
   <div class="container">
@@ -150,9 +174,9 @@
 
   <div class="container">
     <div id="availableJobs">
-      <p>Available jobs in the local area. <br><br>If you are a local employeer with vacancies please contact me and I will place listings here. <br><br>Otherwise for local job listings via Google Jobs please click on the button below<p>
+      <h2 class="contact-heading uppercase text-center"> Local vacancies</h2><hr> If you are a local employeer with vacancies please contact me and I will place listings here. <br><br>Otherwise for local job listings via Google Jobs please click on the button below<p><br>
 
-  <a href="https://www.google.co.uk/search?sxsrf=ACYBGNQ6g05BNBSx6A94S0lvkGsJb5hq3A:1577001330868&ei=ciH_XejYNIrHgAaFo6jwBQ&q=jobs+near+me&oq=jobs+&gs_l=psy-ab.1.2.0i67l3j0i131i20i263j0i67j0i20i263j0l4.9667.13623..16310...1.2..2.297.2172.4j5j4......0....1..gws-wiz.....10..0i71j35i39j0i131j0i10j35i362i39.G4TKYHLQKDo&ibp=htl;jobs&sa=X&ved=2ahUKEwi6kbnp48jmAhUDkFwKHexBC7QQiYsCKAB6BAgKEAM#htivrt=jobs&htidocid=pmltzS4GI-Z2QyVHAAAAAA%3D%3D&fpstate=tldetail" target="_blank" class="button">Click Here</a>
+  <a href="https://www.google.co.uk/search?sxsrf=ACYBGNQ6g05BNBSx6A94S0lvkGsJb5hq3A:1577001330868&ei=ciH_XejYNIrHgAaFo6jwBQ&q=jobs+near+me&oq=jobs+&gs_l=psy-ab.1.2.0i67l3j0i131i20i263j0i67j0i20i263j0l4.9667.13623..16310...1.2..2.297.2172.4j5j4......0....1..gws-wiz.....10..0i71j35i39j0i131j0i10j35i362i39.G4TKYHLQKDo&ibp=htl;jobs&sa=X&ved=2ahUKEwi6kbnp48jmAhUDkFwKHexBC7QQiYsCKAB6BAgKEAM#htivrt=jobs&htidocid=pmltzS4GI-Z2QyVHAAAAAA%3D%3D&fpstate=tldetail" target="_blank" class="btn btn-info">Google Jobs</a>
 
 
 
@@ -167,7 +191,9 @@
 
       <div class="container">
         <div id="directory">
-          <p>Local directory. <br>I will place some usefull companies here. <p>
+          <h2 class="contact-heading uppercase text-center" > Local Directory </h2><hr>
+</div>
+
             <div class="row nearby-places" id="nearby-places">
                     <div class="col-md-4 col-lg-3">
                       <a href="#zonebtns" class="card-link clinics"><i class="fas fa-clinic-medical"></i>Clinics</a>
@@ -214,17 +240,14 @@
               <div class="container">
                 <div id="contactForm">
 
+  <h2 class="contact-heading uppercase text-center"> Please get in touch</h2><hr>
 
-
-
-              <form
+         <form
   action="https://formspree.io/xgeoagbb"
   method="POST"
 >
 
-
   <section class="container-fluid">
-    <h3 class="contact-heading uppercase text-center">Please get in touch</h3>
 
     <div class="center-form">
         <input type="text" name="_name" class="form-control" id="fullname" placeholder="Name" required />

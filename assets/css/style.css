@@ -11,6 +11,10 @@ body {
 }
 
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 #aboveMain {
   height: 70px;
 }
