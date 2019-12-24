@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Stylesheets - Bootswatch Materia theme for styling HTML, style.css specific styling for overrides -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+
+    <!-- Script for Google Maps JavaScript and Places APIs -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJMseNm2wTxN2n6SUHknvwutK5wYQfWd8&libraries=places&callback=initMap"></script>
+
+
+    <!-- Script for managing maps -->
+    <script src="assets/js/map.js"></script>
+
+    <title>Brixworth</title>
+</head>
+
+<body>
+    <!-- Section for selection of city -->
+    <section class="container-fluid column-padding">
+        <div class="row justify-content-around">
+            <div class="col-11 col-md-10 col-lg-8 border-round bg-clr-orange">
+                <div class="form-group" id="citySelector">
+                    <label class="col-form-label col-form-label-lg" for="city"><strong>Which city do you want information on?</strong></label>
+                    <input class="form-control form-control-lg" type="text" placeholder="Northampton, uk" id="city">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section for display of map -->
+    <section class="container-fluid">
+        <div class="row justify-content-around">
+            <div class="col-12 col-md-10 col-lg-8 border-round bg-clr-white" id="map">
+            </div>
+        </div>
+        <div id="attractionSelectorLink"></div>
+    </section>
+
+    <!-- Section for display of attraction selector -->
+    <section class="container-fluid column-padding">
+        <div class="row justify-content-around">
+            <div class="col-11 col-md-10 col-lg-8 border-round bg-clr-orange">
+                <div class="form-group">
+                    <form id="selectorForm">
+                        <!-- Selector adapted from https://stackoverflow.com/questions/6192446/javascript-dropdown-action-->
+                        <label class="col-form-label col-form-label-lg" for="attractionSelector"><strong>Select the attraction you want to view:</strong></label>
+                        <select class="form-control form-control-lg" id="attractionSelector" onchange="attractionSelect(document.getElementById('attractionSelector').value);">
+                            <option selected disabled>Select attraction...</option>
+                            <option value="lodging">Accommodation</option>
+                            <option value="atm">ATM</option>
+                            <option value="bar">Bars</option>
+                            <option value="dentist">Dentist</option>
+                            <option value="museum">Museums</option>
+                            <option value="night_club">Night Clubs</option>
+                            <option value="parking">Parking</option>
+                            <option value="gas_station">Petrol Station</option>
+                            <option value="restaurant">Restaurants</option>
+                            <option value="veterinary_care">Veterinary Care</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section for display of data from API -->
+    <section class="container-fluid column-padding">
+        <div class="row justify-content-around">
+            <div class="col-12 col-md-10 col-lg-8 border-round bg-clr-dark" id="table">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section for disclaimer, API powered by, and social media links -->
+    <footer class="container-fluid" id="about">
+    </footer>
+
+
+    <!-- Scripts for function of navagation bar and toggler-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
