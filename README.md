@@ -74,4 +74,7 @@ SOURCE CODE:
 The google map code has been adapted from:
 Google Maps Developers Documentation Tutorials/Examples.
 
+PHOTOS:
+Photos used on this site have been taken by myself.
+
 
