@@ -30,8 +30,6 @@ TECHNOLIGIES USED:
   * <a href="https://getbootstrap.com/">Bootstrap</a>
     * The project uses __Bootstrap__ for responsive grid layout.
 
-  * <a href="https://jquery.com/">JQuery</a>
-    * The project uses __JQuery__ to simplify the DOM manipulation.
 
   * <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
     * The project uses __JavaScript__ an object-oriented computer programming language to create interactive effects within web browsers.
@@ -43,7 +41,7 @@ TECHNOLIGIES USED:
     * The project uses __Google API__ a set of application programming interfaces (APIs) which allow communication with Google Services.
 
 * <a href="https://console.cloud.google.com">Bootswatch</a>
-    * The project uses Bootswatch – A toolkit for styling templates.
+    * The project uses Bootswatch â€“ A toolkit for styling templates.
 
 
 TESTING: 
@@ -54,3 +52,17 @@ My family and friends have also tested the site for me and checked for spelling 
 I have also used Microsoft word to double check the spelling and grammar used within the project. 
 
 I have used <a href="https://validator.w3.org/">HTML Validator</a> to validate the HTML code and corrected all the major error or warning messages. I have also uploaded the CSS file to <a href="https://jigsaw.w3.org/css-validator/">CSS <a>
+ 
+
+Google Maps Developers Documentation Tutorials/Examples.
+
+INFLUENCES: 
+I have used various projects from the GitHub repository for inspiration. 
+
+ <a href="https://github.com/Code-Institute-Submissions" Code Insitute Submissions</a> 
+ 
+SOURCE CODE:
+The google map code has been adapted from:
+Google Maps Developers Documentation Tutorials/Examples.
+
+
