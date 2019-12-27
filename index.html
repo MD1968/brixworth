@@ -13,6 +13,19 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
 
+            <!-- Favicon -->
+            <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+
+            <!-- Script for Google Maps JavaScript and Places APIs -->
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJMseNm2wTxN2n6SUHknvwutK5wYQfWd8&libraries=places&callback=initMap"></script>
+
+
+            <!-- Script for managing maps -->
+            <script src="assets/js/map.js"></script>
+
+
+
 
   </head>
   <body>
@@ -58,7 +71,7 @@
                         <a class="dropdown-item" href="#aboveJobSeekers">Job Seekers</a>
                       </div>
                       <li class="nav-item">
-                      <a class="nav-link" href="local_search.html" >Local Search</a>
+                      <a class="nav-link" href="#aboveLocalSearch" >Local Search</a>
                       </li>
                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="" id="themes">Resources <span class="caret"></span></a>
@@ -228,9 +241,9 @@ href="https://www.british-history.ac.uk/vch/northants/vol4/pp150-157" target="_b
 
   <a href="https://www.google.co.uk/search?sxsrf=ACYBGNQ6g05BNBSx6A94S0lvkGsJb5hq3A:1577001330868&ei=ciH_XejYNIrHgAaFo6jwBQ&q=jobs+near+me&oq=jobs+&gs_l=psy-ab.1.2.0i67l3j0i131i20i263j0i67j0i20i263j0l4.9667.13623..16310...1.2..2.297.2172.4j5j4......0....1..gws-wiz.....10..0i71j35i39j0i131j0i10j35i362i39.G4TKYHLQKDo&ibp=htl;jobs&sa=X&ved=2ahUKEwi6kbnp48jmAhUDkFwKHexBC7QQiYsCKAB6BAgKEAM#htivrt=jobs&htidocid=pmltzS4GI-Z2QyVHAAAAAA%3D%3D&fpstate=tldetail" target="_blank" class="btn btn-info">Google Jobs</a>
 
-  <a href="https://www.indeed.co.uk/" target="_blank" class="btn btn-info">Indeed</a>
+  <a href="https://www.indeed.co.uk/" target="_blank" class="btn btn-success">Indeed</a>
 
-  <a href="https://www.cv-library.co.uk/" target="_blank" class="btn btn-info">CV Library</a>
+  <a href="https://www.cv-library.co.uk/" target="_blank" class="btn btn-success">CV Library</a>
 
 
 
@@ -238,6 +251,70 @@ href="https://www.british-history.ac.uk/vch/northants/vol4/pp150-157" target="_b
       </div>
 
 
+      <!--      Local Search Start   -->
+      <div class="container">
+        <div id="aboveLocalSearch">
+      </div>
+      <div class="container">
+        <div id="localSearch">
+          <h2 class="contact-heading uppercase text-center"> Local Search</h2><hr>
+
+      <!-- Section for selection of city -->
+          <div class="row justify-content-around">
+              <div class="col-11 col-md-10 col-lg-8 border-round bg-clr-orange">
+                  <div class="form-group" id="citySelector">
+                      <label class="col-form-label col-form-label-lg" for="city"><strong>Select the city that you want information on?</strong></label>
+                      <input class="form-control form-control-lg" type="text" placeholder="Northampton, uk" id="city">
+                  </div>
+              </div>
+          </div>
+      </section>
+
+
+      <!-- Section for display of map -->
+      <section class="container-fluid">
+          <div class="row justify-content-around">
+              <div class="col-12 col-md-10 col-lg-8 border-round bg-clr-white" id="map">
+              </div>
+          </div>
+          <div id="attractionSelectorLink"></div>
+      </section>
+
+
+      <!-- Section for display of data from API -->
+      <section class="container-fluid column-padding">
+          <div class="row justify-content-around">
+              <div class="col-12 col-md-10 col-lg-8 border-round bg-clr-dark" id="table">
+              </div>
+          </div>
+      </section>
+
+      <!-- Section for display of attraction selector -->
+      <section class="container-fluid column-padding">
+          <div class="row justify-content-around">
+              <div class="col-11 col-md-10 col-lg-8 border-round bg-clr-orange">
+                  <div class="form-group">
+                      <form id="selectorForm">
+                          <!-- Selector adapted from https://stackoverflow.com/questions/6192446/javascript-dropdown-action-->
+                          <label class="col-form-label col-form-label-lg" for="attractionSelector"><strong>Select the catagory that you want to view:</strong></label>
+                          <select class="form-control form-control-lg" id="attractionSelector" onchange="attractionSelect(document.getElementById('attractionSelector').value);">
+                              <option selected disabled>Select attraction...</option>
+                              <option value="lodging">Accommodation</option>
+                              <option value="atm">ATM</option>
+                              <option value="bar">Bars</option>
+                              <option value="dentist">Dentist</option>
+                              <option value="museum">Museums</option>
+                              <option value="night_club">Night Clubs</option>
+                              <option value="parking">Parking</option>
+                              <option value="gas_station">Petrol Station</option>
+                              <option value="restaurant">Restaurants</option>
+                              <option value="veterinary_care">Veterinary Care</option>
+                          </select>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </section>
 
 
 
@@ -267,7 +344,7 @@ href="https://www.british-history.ac.uk/vch/northants/vol4/pp150-157" target="_b
         <input type="phone" name="_phone" class="form-control" id="phone" placeholder="Phone" required />
         <textarea rows="5" name="_message" class="form-control" id="projectsummary" placeholder="Message" required></textarea>
         <input type="hidden" name="_next" value="https://www.silverheath.co.uk/emailSent.html"/>
-        <br><button type="primary" class="btn btn-primary center-block">Send</button>
+        <br><button type="primary" class="btn btn-success center-block">Send</button>
 
       </form>
 
@@ -289,7 +366,6 @@ href="https://www.british-history.ac.uk/vch/northants/vol4/pp150-157" target="_b
 </footer>
 
 
-<!--  Links to google maps  -->
 <!--  Links to Bootswatch  -->
 
     <script src="assets/bootswatch/jquery.min.js.download"></script>

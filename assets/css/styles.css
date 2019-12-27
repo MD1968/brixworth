@@ -15,6 +15,10 @@ body {
     text-transform: uppercase;
 }
 
+#aboveLocalSearch {
+  height: 70px;
+}
+
 #aboveMain {
   height: 70px;
 }
@@ -142,6 +146,7 @@ body:after {
 
 #map {
     height: 60vh !important;
+    width: 60%;
 }
 
 /* Table styling */
