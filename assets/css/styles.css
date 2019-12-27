@@ -12,7 +12,7 @@ body {
 
 
 .uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 #aboveLocalSearch {
@@ -36,9 +36,9 @@ body {
 }
 
 
-  #aboveAbout {
-    height: 70px;
-  }
+#aboveAbout {
+  height: 70px;
+}
 
 #about {
   position: relative;
@@ -70,9 +70,9 @@ body {
 }
 
 
-  #aboveDirectory {
-    height: 70px;
-  }
+#aboveDirectory {
+  height: 70px;
+}
 
 #directory {
   position: relative;
@@ -80,99 +80,101 @@ body {
 
 /* Map styling */
 
-
-
 /* Color schemes */
 
 .bg-clr-red {
-    background-color: #e51c237d;
-    color:#fafafa;
+  background-color: #e51c237d;
+  color: #fafafa;
 }
 
 .bg-clr-orange {
-    background-color:#B2BEB5;
-    color: #000;
+  background-color: #B2BEB5;
+  color: #000;
 }
 
 .bg-clr-white {
-    background-color: #fafafacf;
+  background-color: #fafafacf;
 }
 
 .bg-clr-dark {
-    background-color: #888383d4;
-    color:black;
+  background-color: #888383d4;
+  color: black;
 }
 
 
 /* Code adapted from https://stackoverflow.com/a/43058483 to fix scaling issues on iOS devices */
+
 body {
-    min-height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 body:after {
-    content: "";
-    position: fixed;
-    /* stretch a fixed position to the whole screen */
-    top: 0;
-    height: 100vh;
-    /* fix for mobile browser address bar appearing disappearing */
-    left: 0;
-    right: 0;
-    z-index: -2;
-    /* needed to keep in the background */
-    background: url("../images/citybackground.jpg") center center;
-    background-size: cover;
+  content: "";
+  position: fixed;
+  /* stretch a fixed position to the whole screen */
+  top: 0;
+  height: 100vh;
+  /* fix for mobile browser address bar appearing disappearing */
+  left: 0;
+  right: 0;
+  z-index: -2;
+  /* needed to keep in the background */
+  background: url("../images/citybackground.jpg") center center;
+  background-size: cover;
 }
 
 /* Navigation bar styling */
 
 /* Map area */
 
-.col-form-label, .form-control {
-    color:#000;
+.col-form-label,
+.form-control {
+  color: #000;
 }
 
-#city:focus, #attractionSelector:focus {
-    -webkit-box-shadow: inset 0 -2px 0 #fafafa;
-            box-shadow: inset 0 -2px 0 #fafafa;
+#city:focus,
+#attractionSelector:focus {
+  -webkit-box-shadow: inset 0 -2px 0 #fafafa;
+  box-shadow: inset 0 -2px 0 #fafafa;
 }
 
 #map {
-    height: 60vh !important;
-    width: 60%;
+  height: 60vh !important;
+  width: 60%;
 }
 
 /* Table styling */
 
 .table th {
-    border: 0px;
+  border: 0px;
 }
 
-.table th, .table td {
-    padding: 6px 3px 6px 3px;
-    background: #fafafa00;
-    color: #fafafa;
+.table th,
+.table td {
+  padding: 6px 3px 6px 3px;
+  background: #fafafa00;
+  color: #fafafa;
 }
 
 .table-light {
-     background: #fafafa00;
+  background: #fafafa00;
 }
 
 .table-link {
-    color: #fafafa;
-    font-weight: bolder;
-    font-size: 16px;
+  color: #fafafa;
+  font-weight: bolder;
+  font-size: 16px;
 }
 
 .table-link:hover {
-    color: #fafafa;
-    font-weight: bolder;
-    text-decoration: none;
+  color: #fafafa;
+  font-weight: bolder;
+  text-decoration: none;
 }
