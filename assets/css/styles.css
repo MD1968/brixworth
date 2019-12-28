@@ -21,11 +21,11 @@ body {
 
 
 #aboveLocalSearch {
-  height: 70px;
+  height: 60px;
 }
 
 #aboveMain {
-  height: 70px;
+  height: 60px;
 }
 
 #main {
@@ -33,7 +33,7 @@ body {
 }
 
 #aboveContactForm {
-  height: 70px;
+  height: 60px;
 }
 
 #contactForm {
@@ -42,19 +42,11 @@ body {
 
 
 #aboveAbout {
-  height: 70px;
-}
-
-#about {
-  position: relative;
+  height: 60px;
 }
 
 #aboveHistory {
   height: 70px;
-}
-
-#history {
-  position: relative;
 }
 
 #aboveJobSeekers {
@@ -81,6 +73,11 @@ body {
 
 #directory {
   position: relative;
+}
+
+
+#aboveWhoAmI {
+  height: 60px;
 }
 
 /* Map styling */

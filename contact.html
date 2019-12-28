@@ -61,26 +61,34 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
-
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+              <div class="container">
+                <div id="contactForm">
 
-  <!--       Main Page Start   -->
-  <div class="container">
-    <div class="d-flex flex-row">
-      <div class="d-flex justify-content-center ">
-        <div id="main">
-          <h2 class="contact-heading uppercase text-center"> Welcome to Brixworth</h2>
-          <hr>
+                  <h2 class="contact-heading uppercase text-center"> Please get in touch</h2>
+                  <hr>
 
-          <img alt="Village Church" src="assets/images/villageChurch.jpg" style="width: 95%; height:95%;">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--       Footer   -->
+                  <form action="https://formspree.io/xgeoagbb" method="POST">
+
+                    <section class="container-fluid">
+
+                      <div class="center-form">
+                        <input type="text" name="_name" class="form-control" id="fullname" placeholder="Name" required />
+                        <input type="emailaddress" name="_replyto" class="form-control" id="emailaddress" placeholder="Email" required />
+                        <input type="phone" name="_phone" class="form-control" id="phone" placeholder="Phone" required />
+                        <textarea rows="5" name="_message" class="form-control" id="projectsummary" placeholder="Message" required></textarea>
+                        <input type="hidden" name="_next" value="https://www.silverheath.co.uk/emailSent.html" />
+                        <br><button type="primary" class="btn btn-success center-block">Send</button>
+
+                  </form>
+                  </div>
+                </div>
+              </div>
+              </section>
+            </div>
+          </div>
 
   <footer>
 

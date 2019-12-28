@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--       Header Files Links Scripts Etc   -->
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>BRIXWORTH</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="assets/bootswatch/bootstrap.css" media="screen">
+  <link rel="stylesheet" href="assets/bootswatch/custom.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+
+  <!-- Script for Google Maps JavaScript and Places APIs -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJMseNm2wTxN2n6SUHknvwutK5wYQfWd8&libraries=places&callback=initMap"></script>
+
+
+  <!-- Script for managing maps -->
+  <script src="assets/js/map.js"></script>
+</head>
+
+<body>
+  <!--       Main Body   -->
+
+  <!--       Navbar Start   -->
+
+  <!-- Navigation bar for site -->
+  <div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">BRIXWORTH</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="history.html">History</a>
+              <li class="nav-item">
+                <a class="nav-link" href="localsearch.html">Local Search</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="jobs.html">Jobs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="whoami.html">Who am I?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+          </div>
+        </div>
+      </div>
+
+    <div id="localSearch">
+      <div class="container">
+        <h2 class="contact-heading uppercase text-center">Local Search</h2>
+        <hr>
+          <p>I have added some useful external limks<br>Please select your choice from one of the buttons below.<p><br>
+
+            <a class="btn btn-success" data-toggle="collapse" href="#food" role="button" aria-expanded="false" style=" margin-left: 20px" aria-controls="food">Food and Drink</a>
+            <a class="btn btn-success" data-toggle="collapse" href="#resources" role="button" aria-expanded="false" style=" margin-left: 20px;" aria-controls="resources">Local Resources</a>
+  <br>
+                                            <div class="collapse multi-collapse" id="food">
+                                              <div class="card card-body" style="width: 95%">
+                                                  <button>
+                                                        <a class="dropdown-item " href="https://www.facebook.com/pages/Brixworth-Fish-Bar/236280106578159" target="_blank">Brixworth Fish Bar</a>
+                                                            <a class="dropdown-item" href="http://www.brixworthtandoori.co.uk/" target="_blank">Brixworth Tandoori</a>
+                                                            <a class="dropdown-item" href="https://www.facebook.com/pages/category/Chinese-Restaurant/Brixworth-China-Garden-1923467711218176/" target="_blank">China Garden</a>
+                                                            <a class="dropdown-item" href="https://www.coachandhorsesbrixworth.co.uk/" target="_blank">Coach & Horses</a>
+                                                            <a class="dropdown-item" href="https://www.thegeorgeatbrixworth.co.uk/s_foodanddrink.asp" target="_blank">The George</a>
+                                                            <a class="dropdown-item" href="https://www.theworkhousebrixworth.com/the-little-workhouse/" target="_blank">The Little Workhouse</a>
+                                                            <a class="dropdown-item" href="https://www.theworkhousebrixworth.com/" target="_blank">The Workhouse</a>
+                                                          </button>
+                                                          </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="collapse multi-collapse" id="resources">
+                                              <div class="card card-body" style="width: 95%">
+                                                  <button>
+                                                              <a class="dropdown-item" href="https://selfserve.daventrydc.gov.uk/forms/postcodechecker.aspx?AspxAutoDetectCookieSupport=1" target="_blank">Bin Collection</a>
+                                                              <a class="dropdown-item" href="https://www.brixworthparishcouncil.gov.uk/" target="_blank">Borough Council</a>
+                                                              <a class="dropdown-item" href="https://www.daventrydc.gov.uk/" target="_blank">County Council</a>
+                                                              <a class="dropdown-item" href="https://www.northamptonshireparks.co.uk/brixworth-country-park/Pages/default.aspx/" target="_blank">County Park</a>
+                                                              <a class="dropdown-item" href="https://www.saxonspires.co.uk/" target="_blank">Doctors</a>
+                                                              <a class="dropdown-item" href="https://www.facebook.com/BrixworthLibrary/" target="_blank">Library</a>
+                                                              <a class="dropdown-item" href="https://www.facebook.com/groups/brixworthletusknowpage/?multi_permalinks=2556901877889863&notif_id=1576927413854753&notif_t=group_highlights/" target="_blank">Village Facebook Group</a>
+                                                    </button>
+                                              </div>
+                                            </div>
+  <div class="container">
+      <p>Alternatively please use the interactive map below to explore the area.<p>
+
+  </div>
+
+          <!-- Section for selection of city -->
+          <div class="row justify-content-around">
+            <div class="col-11 col-md-10 col-lg-8 border-round bg-clr-orange">
+              <div class="form-group" id="citySelector">
+                <label class="col-form-label col-form-label-lg" for="city"><strong>Select the city that you want information on?</strong></label>
+                <input class="form-control form-control-lg" type="text" placeholder="Northampton, uk" id="city">
+              </div>
+            </div>
+          </div>
+          </section>
+
+
+          <!-- Section for display of map -->
+          <section class="container-fluid">
+            <div class="row justify-content-around">
+              <div class="col-12 col-md-10 col-lg-8 border-round bg-clr-white" id="map">
+              </div>
+            </div>
+            <div id="attractionSelectorLink"></div>
+          </section>
+
+
+          <!-- Section for display of data from API -->
+          <section class="container-fluid column-padding">
+            <div class="row justify-content-around">
+              <div class="col-12 col-md-10 col-lg-8 border-round bg-clr-dark" id="table">
+              </div>
+            </div>
+          </section>
+
+          <!-- Section for display of attraction selector -->
+          <section class="container-fluid column-padding">
+            <div class="row justify-content-around">
+              <div class="col-11 col-md-10 col-lg-8 border-round bg-clr-orange">
+                <div class="form-group">
+                  <form id="selectorForm">
+                    <!-- Selector adapted from https://stackoverflow.com/questions/6192446/javascript-dropdown-action-->
+                    <label class="col-form-label col-form-label-lg" for="attractionSelector"><strong>Select the catagory that you want to view:</strong></label>
+                    <select class="form-control form-control-lg" id="attractionSelector" onchange="attractionSelect(document.getElementById('attractionSelector').value);">
+                                <option selected disabled>Select attraction...</option>
+                                <option value="lodging">Accommodation</option>
+                                <option value="atm">ATM</option>
+                                <option value="bar">Bars</option>
+                                <option value="dentist">Dentist</option>
+                                <option value="museum">Museums</option>
+                                <option value="night_club">Night Clubs</option>
+                                <option value="parking">Parking</option>
+                                <option value="gas_station">Petrol Station</option>
+                                <option value="restaurant">Restaurants</option>
+                                <option value="veterinary_care">Veterinary Care</option>
+                            </select>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+  <!--       Footer   -->
+
+  <footer>
+
+  </footer>
+
+
+  <!--  Links to Bootswatch  -->
+
+  <script src="assets/bootswatch/jquery.min.js.download"></script>
+  <script src="assets/bootswatch/popper.min.js.download"></script>
+  <script src="assets/bootswatch/bootstrap.min.js.download"></script>
+  <script src="assets/bootswatch/custom.js.download"></script>
+
+
+
+
+</body>
+
+</html>
