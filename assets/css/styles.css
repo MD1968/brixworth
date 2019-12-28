@@ -15,6 +15,11 @@ body {
   text-transform: uppercase;
 }
 
+#citySelector {
+  display: none;
+ }
+
+
 #aboveLocalSearch {
   height: 70px;
 }
