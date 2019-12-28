@@ -183,3 +183,7 @@ body:after {
   font-weight: bolder;
   text-decoration: none;
 }
+
+.dropdown-item{
+  border-style: none;
+}
