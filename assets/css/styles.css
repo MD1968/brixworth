@@ -184,3 +184,37 @@ body:after {
 .dropdown-item{
   border-style: none;
 }
+
+/* Start of Footer */
+.footer-div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footer {
+  background:#F8F8FF;
+  color: #333333;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.footer-icons i {
+  color: #333333;
+  font-size: 1.7rem;
+  margin: 30px 5px 0 10px;
+}
+
+.footer-icons i:hover {
+  color: #af0000;
+}
+
+.footer p {
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+
+
+/* End of Footer */
