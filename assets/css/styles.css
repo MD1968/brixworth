@@ -1,8 +1,9 @@
+/* Body Styling */
+
 body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
 }
-
 
 .nor-brand {
   margin: 0 15px;
@@ -10,77 +11,9 @@ body {
   height: 40px;
 }
 
-
 .uppercase {
   text-transform: uppercase;
 }
-
-#citySelector {
-  display: none;
- }
-
-
-#aboveLocalSearch {
-  height: 60px;
-}
-
-#aboveMain {
-  height: 60px;
-}
-
-#main {
-  position: relative;
-}
-
-#aboveContactForm {
-  height: 60px;
-}
-
-#contactForm {
-  position: relative;
-}
-
-
-#aboveAbout {
-  height: 60px;
-}
-
-#aboveHistory {
-  height: 70px;
-}
-
-#aboveJobSeekers {
-  height: 70px;
-}
-
-#jobSeekers {
-  position: relative;
-}
-
-#aboveAvailableJobs {
-  height: 70px;
-}
-
-
-#availableJobs {
-  position: relative;
-}
-
-
-#aboveDirectory {
-  height: 70px;
-}
-
-#directory {
-  position: relative;
-}
-
-
-#aboveWhoAmI {
-  height: 60px;
-}
-
-/* Map styling */
 
 /* Color schemes */
 
@@ -103,8 +36,7 @@ body {
   color: black;
 }
 
-
-/* Code adapted from https://stackoverflow.com/a/43058483 to fix scaling issues on iOS devices */
+/* Map styling */
 
 body {
   min-height: 100vh;
@@ -120,19 +52,14 @@ body {
 body:after {
   content: "";
   position: fixed;
-  /* stretch a fixed position to the whole screen */
   top: 0;
   height: 100vh;
-  /* fix for mobile browser address bar appearing disappearing */
   left: 0;
   right: 0;
   z-index: -2;
-  /* needed to keep in the background */
   background: url("../images/citybackground.jpg") center center;
   background-size: cover;
 }
-
-/* Navigation bar styling */
 
 /* Map area */
 
@@ -192,7 +119,7 @@ body:after {
 }
 
 .footer {
-  background:#F8F8FF;
+  background: white;
   color: #333333;
   font-family: "Rubik", sans-serif;
   font-weight: bold;
@@ -202,7 +129,7 @@ body:after {
 
 .footer-icons i {
   color: #333333;
-  font-size: 1.7rem;
+  font-size: 1.0rem;
   margin: 30px 5px 0 10px;
 }
 
