@@ -1,7 +1,7 @@
 # Brixworth
 Local Village Site
 
-The project can be viewed at: <a href="https://silverheath.co.uk/brixworth.index.html">Click Here</a>
+The project can be viewed at: <a href="https://silverheath.co.uk/brixworth/index.html">Click Here</a>
 
 ### CONCEPT:
 I have recently moved into the village of Brixworth. Being new to the area it was a challenge to find your feet and to get to know where things are. For example: Banks, Doctors, Food shops etc.
@@ -71,8 +71,8 @@ Finally I have also included a contact form to enable visitors to provide feedba
     * The project uses Bootswatch – A source for styling templates.
 
 
-    * <a href="https://formspree.io/">Formspree</a>
-        * The project uses Formspree – An email service.
+* <a href="https://formspree.io/">Formspree</a>
+    * The project uses Formspree – An email service.
 
 ### TESTING:
 
@@ -87,7 +87,7 @@ I have used <a href="https://validator.w3.org/">HTML Validator</a> to validate t
 I have also uploaded the CSS file to <a href="https://jigsaw.w3.org/css-validator/">CSS <a>
 
 ### INFLUENCES:
-I have researched several town and village websites for inspiration. A number stood out my favourite being Hook Norton.  <a href="https://hook-norton.org.uk/" Hook Norton</a>
+I have researched several town and village websites for inspiration. A number stood out my favourite being Hook Norton.  <a href="https://hook-norton.org.uk/" > Hook Norton</a>
 
 I did like to overall look and colour scheme however I did feel that it could do with a more modern colour scheme and layout. Hence the look and feel to my site.
 
