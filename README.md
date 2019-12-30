@@ -14,7 +14,8 @@ I wanted a different solution.
 I produced two wireframe documents. One for a desktop and the other for mobile phone screen sizes.
 
   * <a href="assets/wireframes/desktop.pdf/">Desktop</a>
-    * <a href="assets/wireframes/mobile.pdf/">Mobile Phone</a>
+  
+  * <a href="assets/wireframes/mobile.pdf/">Mobile Phone</a>
 
 
 ### SOLUTION:
@@ -92,7 +93,7 @@ I did like to overall look and colour scheme however I did feel that it could do
 
 I have also used various projects from the GitHub repository for inspiration.
 
- <a href="https://github.com/Code-Institute-Submissions" Code Institute Submissions</a>
+ <a href="https://github.com/Code-Institute-Submissions" > Code Institute Submissions</a>
 
 ### SOURCE CODE:
 The google map code has been adapted from:
