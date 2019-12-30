@@ -67,7 +67,7 @@ Finally I have also included a contact form to enable visitors to provide feedba
   * <a href="https://console.cloud.google.com">Google API</a>
     * The project uses __Google API__ a set of application programming interfaces (APIs) which allow communication with Google Services.
 
-* <a href="https://console.cloud.google.com">Bootswatch</a>
+* <a href="https://bootswatch.com/">Bootswatch</a>
     * The project uses Bootswatch – A source for styling templates.
 
 
