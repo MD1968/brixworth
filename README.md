@@ -71,7 +71,7 @@ Finally I have also included a contact form to enable visitors to provide feedba
     * The project uses Bootswatch – A source for styling templates.
 
 
-    * <a href="https://formspree.com">Formspree</a>
+    * <a href="https://formspree.io/">Formspree</a>
         * The project uses Formspree – An email service.
 
 ### TESTING:
